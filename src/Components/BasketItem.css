@@ -1,0 +1,31 @@
+.basket-pdt{
+    display:flex;
+    flex-direction:row;
+    margin: 40px 0px;
+    height:200px;
+}
+.basket-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 200px;
+    width: 50%;
+    /* border: 2px black solid; */
+    margin-right: 30px;
+    
+}
+.basket-image>img{
+    max-width:80%;
+    max-height: 80%;
+}
+.basket-pdtinfo{
+    width:50%;
+    
+  
+}
+.basket-pdtinfo>h3{
+    font-size:1.2rem;
+}
+.product-price>h3{
+    font-size: 1rem;
+}

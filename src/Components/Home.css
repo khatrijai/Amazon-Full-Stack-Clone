@@ -1,0 +1,21 @@
+.row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* margin:20px 20px 15px 20px; */
+
+}
+.row-2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    /* margin: 0px 20px 15px 20px; */
+
+}
+.home{
+    background-color:#eaeded;
+}

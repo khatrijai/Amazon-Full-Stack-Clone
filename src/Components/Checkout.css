@@ -1,0 +1,42 @@
+.checkout{
+    width: 1520px;
+    margin: 0 auto;
+   
+}
+.checkout-container-left{
+    width:70%;
+    margin:1% 0.5% 1% 1%;
+}
+.checkout-banner {
+
+    width:100%;
+    margin-bottom: 20px;
+}
+.checkout-banner-img{
+    max-width:100%;
+    max-height:100%;
+}
+.checkout-container-right{
+    width:30%;
+    margin:1% 1% 1% 0.5%;
+    border: 2px solid rgb(175, 173, 173);
+    padding: 20px;
+    background-color:rgb(243, 241, 241)
+}
+.checkout-container-left>h1{
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(207, 205, 205);
+}
+.checkout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+}
+.carousel-control-next, .carousel-control-prev{
+    display:none;
+  }
+
+.carousel-indicators>button{
+    display: none !important;
+}
