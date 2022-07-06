@@ -1,0 +1,63 @@
+.payment-container{
+    width:1500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.payment-header{
+    font-weight: bolder;
+    text-align:center;
+    width:100%;
+    height:78.4px;
+    background-color:rgb(238, 235, 235);
+    padding:15px;
+}
+
+.payment-delivery-detail{
+    display:flex;
+    
+    border-bottom: 2px solid rgb(207, 205, 205);
+    height:150px;;
+    
+    
+}
+h5{
+    text-align:center;
+    width:15%;
+    padding:10px;
+    margin-right: 1% ;
+    font-weight: bold;
+    /* border:1px solid black; */
+}
+
+p{
+    margin: 4px;
+}
+.payment-review-items{
+    display:flex;
+    flex-direction: row;
+    min-height: 200px;
+    border-bottom: 2px solid rgb(207, 205, 205);
+}
+.payment-pdts{
+    padding:10px;
+    width:70%;
+    
+
+}
+.no-of-items, .no-of-items:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.payment-method{
+    height:500px;
+    width:100%;
+    display: flex;
+}
+.payment-method>div{
+    padding:10px;
+    width:30%;
+}

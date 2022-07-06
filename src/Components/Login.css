@@ -1,0 +1,46 @@
+.amz-img{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.amz-img>img{
+    width: 100%;
+}
+.amz-login{
+    width:450px;
+    margin: 0px auto;
+    border: 2px solid lightgrey;
+    border-radius:5px;
+    padding:20px;
+}
+Form{
+    margin-top:30px;
+}
+.signin-btn{
+    margin-bottom: 16px;;
+}
+.amz-login>p{
+    line-height: 1rem;
+    font-size: 0.9rem;
+}
+.create-new-account-btn{
+    color: black;
+    background-color:#f0f2f5;
+    border-color: #adb1b8 #a2a6ac #8d9096
+}
+.create-new-account-btn:hover {
+    background-color:#e7e9ec;
+    color: black ;
+    border-color: #adb1b8 #a2a6ac #8d9096
+}
+.create-new-account-btn:focus {
+    background-color:#e7e9ec;
+    color: black ;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+}
+.google-sign-in{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
